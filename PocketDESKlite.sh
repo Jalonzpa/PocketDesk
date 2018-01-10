@@ -39,6 +39,10 @@ start_spinner [Installing_battery_indicator]
 $MYDIR/Scriptslite/batterylite.sh &> /dev/null
 stop_spinner $?
 
+# Fix keyboard
+start_spinner [Fixing keyboard]
+xmodmap .Xmodmap
+
 # Finishing up
 echo "+---------------------------------------------------------------------+"
 echo "|                           Congratulation!                           |"

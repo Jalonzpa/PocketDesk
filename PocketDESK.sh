@@ -61,6 +61,9 @@ start_spinner [Selling_out]
 $MYDIR/Scripts/wallpaper.sh &> /dev/null
 stop_spinner $?
 
+# Fix keyboard
+start_spinner [Fixing keyboard]
+xmodmap .Xmodmap
 
 # Finishing up
 echo "+---------------------------------------------------------------------+"
