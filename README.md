@@ -44,8 +44,6 @@ That is it. Do a reboot and you are good to go.
 
 The point of **_PocketDESK_** is that you can switch between the normal **Desktop GUI** and **PocketHome**
 
-To do this simply log out of whatever you booted into
-
 **PocketHome:** (_See.. I put a button there for y'all_)
 
 ![PocketHome_logout](https://github.com/AllGray/AllGray_Private/blob/master/gif/PocketHome_logout.gif)
