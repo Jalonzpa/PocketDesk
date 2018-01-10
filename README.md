@@ -1,13 +1,14 @@
 # PocketDESK - Unify your PocketCHIP
 
-![PocketDESKlogo](https://github.com/AllGray/PocketDesk/blob/master/images/PocketDESKlogo.PNG)
+![PocketDESKlogo](https://github.com/Jalonzpa/PocketDesk/blob/master/images/PocketDESKlogo.PNG)
 ## A DESKTOP WHEN YOU WANT IT, POCKETHOME WHEN YOU DON’T
 
 ![PocketDESK](https://blog.nextthing.co/wp-content/uploads/2017/09/pdesktop6B-1024x683.jpg)
 
-Looking for PocketDESKlite? Look here: [PocketDESKlite](https://github.com/AllGray/PocketDesk/blob/master/PocketDESKlite.sh)
+Looking for PocketDESKlite? Look here: [PocketDESKlite](https://github.com/Jalonzpa/PocketDesk/blob/master/PocketDESKlite.sh)
 
 ----------
+_This is a forked version of @AllGray's original PocketDESK. It is the same, but will be maintained by me and will have all bugs stomped out as promptly as possible._
 
 ## Introducing _**PocketDESK**_
 
@@ -19,7 +20,7 @@ _Does the keyboard work?_  **Yes sir**
 
 _Does the touchscreen work?_  **Yes sir**
 
-_Can i run this next to the normal PocketHome?_ **YES SIR**
+_Can I run this next to the normal PocketHome?_ **YES SIR**
 
 
 The install is super simple.
@@ -28,7 +29,7 @@ Just run
 
     sudo apt update && sudo apt install git
 
-    git clone https://github.com/AllGray/PocketDesk.git
+    git clone https://github.com/Jalonzpa/PocketDesk.git
 
     sudo ./PocketDesk/PocketDESK.sh
 
@@ -45,7 +46,7 @@ The point of **_PocketDESK_** is that you can switch between the normal **Deskto
 
 To do this simply log out of whatever you booted into
 
-**PocketHome:** (_See.. I put a button there for you'all_)
+**PocketHome:** (_See.. I put a button there for y'all_)
 
 ![PocketHome_logout](https://github.com/AllGray/AllGray_Private/blob/master/gif/PocketHome_logout.gif)
 
@@ -66,18 +67,17 @@ In the login manager you click and choose the desired **GUI** version:
 
 
 
-If you run into any problems, feel free ask.
+If you run into any problems, feel free to ask.
 
 
 
 ----------
 
 _**Credits:**_ 
+_Thank you to @AllGray for the base code!_
 
 _Thank you to @Demonswaltz for testing_
 
 _Thank you to @marshmallow for giving me pointers on PocketHome and creating a better PocketHome_
 
-_And Thanks to the [Slack Communiy](https://slofile.com/slack/chipster)   <- Signup link._
-
-
+_And Thanks to the [Slack Communiy](https://slofile.com/slack/chipster)   <- Signup link_
