@@ -7,5 +7,5 @@ echo -e "Package: pocket-home\nPin: version *\nPin-Priority: 1050" | sudo tee /e
 apt-get update
 apt-get install pocket-home
 mkdir /home/chip/.pocket-home/
-wget -O /home/chip/.pocket-home/config.json https://raw.githubusercontent.com/AllGray/PocketDesk/master/files/config.json
+wget -O /home/chip/.pocket-home/config.json https://raw.githubusercontent.com/Jalonzpa/PocketDesk/master/files/config.json
 sudo chown -R chip: .pocket-home/
