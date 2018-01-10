@@ -65,6 +65,13 @@ stop_spinner $?
 start_spinner [Fixing keyboard]
 xmodmap .Xmodmap
 
+# Fix program issue
+start_spinner [Fixing program bug]
+cd /usr/share/xsessions
+mv pocket-wm.desktop pocket-wm.desktop.backup
+mv awesome.desktop.backup awesome.desktop
+cd
+
 # Finishing up
 echo "+---------------------------------------------------------------------+"
 echo "|                           Congratulation!                           |"
