@@ -8,6 +8,7 @@
 Looking for PocketDESKlite? Look here: [PocketDESKlite](https://github.com/Jalonzpa/PocketDesk/blob/master/PocketDESKlite.sh)
 
 ----------
+_This is a forked version of @AllGray's original PocketDESK. It is the same, but will be maintained by me and will have all bugs stomped out as promptly as possible._
 
 ## Introducing _**PocketDESK**_
 
