@@ -24,7 +24,7 @@ _Can I run this next to the normal PocketHome?_ **YES SIR**
 
 
 The install is super simple.
-Flash the 4.4 GUI image to your CHIP and plug it into the PocketCHIP. Attach a USB mouse, go to the Computer Things menu and select "Terminal Emulator" and then run:
+Flash the 4.4 PocketCHIP image to your CHIP and plug it into the PocketCHIP. Run these commands in your terminal:
 
     sudo apt update && sudo apt install git
 
