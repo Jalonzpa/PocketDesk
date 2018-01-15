@@ -1,4 +1,8 @@
 #!/bin/bash
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit
+fi
 
 # PocketHOME
 echo "deb https://o-marshmallow.github.io/PocketCHIP-pocket-home/archive/ jessie main" | sudo tee /etc/apt/sources.list.d/marshmallow-pocket-chip-home.list
@@ -9,3 +13,6 @@ apt-get install pocket-home
 mkdir /home/chip/.pocket-home/
 wget -O /home/chip/.pocket-home/config.json https://raw.githubusercontent.com/Jalonzpa/PocketDesk/master/files/config.json
 sudo chown -R chip: .pocket-home/
+# Fix keyboard
+xmodmap .Xmodmap
+echo "sudo xmodmap .Xmodmap" >> /etc/rc.local
