@@ -58,7 +58,7 @@ stop_spinner $?
 
 # Wallpaper Change
 start_spinner [Selling_out]
-$MYDIR/Scripts/wallpaper.sh &> /dev/null
+$MYDIR/Scripts/wallpaper1.sh &> /dev/null
 stop_spinner $?
 
 # Fix program issue
