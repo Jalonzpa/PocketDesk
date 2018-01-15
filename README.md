@@ -44,7 +44,7 @@ That is it. Do a reboot and you are good to go.
 
 The point of **_PocketDESK_** is that you can switch between the normal **Desktop GUI** and **PocketHome**
 
-**PocketHome:** (_See.. I put a button there for y'all_)
+**PocketHome:** (_See... I put a button there for y'all_)
 
 ![PocketHome_logout](https://github.com/AllGray/AllGray_Private/blob/master/gif/PocketHome_logout.gif)
 
@@ -72,6 +72,7 @@ If you run into any problems, feel free to ask.
 ----------
 
 _**Credits:**_ 
+
 _Thank you to @AllGray for the base code!_
 
 _Thank you to @Demonswaltz for testing_
