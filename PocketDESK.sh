@@ -64,6 +64,7 @@ stop_spinner $?
 # Fix keyboard
 start_spinner [Fixing keyboard]
 xmodmap .Xmodmap
+echo "sudo xmodmap .Xmodmap" >> /etc/rc.local
 
 # Fix program issue
 start_spinner [Fixing program bug]
