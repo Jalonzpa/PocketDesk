@@ -62,7 +62,7 @@ $MYDIR/Scripts/wallpaper.sh &> /dev/null
 stop_spinner $?
 
 # Fix program issue
-start_spinner [Fixing program bug]
+start_spinner [Fixing_program_bug]
 cd /usr/share/xsessions
 mv pocket-wm.desktop pocket-wm.desktop.backup
 mv awesome.desktop.backup awesome.desktop
