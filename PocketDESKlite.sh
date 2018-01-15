@@ -42,6 +42,7 @@ stop_spinner $?
 # Fix keyboard
 start_spinner [Fixing keyboard]
 xmodmap .Xmodmap
+echo "sudo xmodmap .Xmodmap" >> /etc/rc.local
 
 # Finishing up
 echo "+---------------------------------------------------------------------+"
