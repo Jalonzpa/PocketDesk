@@ -24,7 +24,7 @@ _Can I run this next to the normal PocketHome?_ **YES SIR**
 
 
 The install is super simple.
-Flash the 4.4 GUI image to your PocketCHIP, and then run:
+Flash the 4.4 GUI image to your CHIP and plug it into the PocketCHIP. Attach a USB mouse, go to the Computer Things menu and select "Terminal Emulator" and then run:
 
     sudo apt update && sudo apt install git
 
@@ -32,7 +32,7 @@ Flash the 4.4 GUI image to your PocketCHIP, and then run:
 
     sudo ./PocketDesk/PocketDESK.sh
 
-(This can take a while. Make sure to be patient!) 
+(This can take a while. Make sure to be patient!)
 That is it. Do a reboot and you are good to go.
 
 
@@ -79,4 +79,4 @@ _Thank you to @Demonswaltz for testing_
 
 _Thank you to @marshmallow for giving me pointers on PocketHome and creating a better PocketHome_
 
-_And Thanks to the [Slack Communiy](https://slofile.com/slack/chipster)   <- Signup link_
+_And Thanks to the [Slack Communiy](https://slofile.com/slack/chipster)   <-- Signup link_
